@@ -25,7 +25,7 @@ The generator automatically detects and removes banned words, tracks rule violat
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/harshsoni2024/csv_content_processor.git
 cd walmart-content-generator
 ```
 
