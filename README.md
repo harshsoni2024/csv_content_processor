@@ -117,23 +117,6 @@ Tests cover:
 └── README.md                      # This file
 ```
 
-## API Reference
-
-### WalmartContentGeneratorClass
-
-Main class for content generation.
-
-#### Methods
-
-- `check_banned_words(text)` - Returns list of banned words found in text
-- `clean_text(text)` - Removes banned words from text
-- `generate_walmart_title(brand, product_type, attributes)` - Creates compliant title
-- `generate_bullets(brand, product_type, attributes, current_description, keywords)` - Generates 8 HTML bullets
-- `generate_description(brand, product_type, attributes, current_description, keywords)` - Creates 120-160 word description
-- `generate_meta_title(brand, product_type)` - Creates meta title (≤70 chars)
-- `generate_meta_description(brand, product_type, attributes)` - Creates meta description (≤160 chars)
-- `process_csv(input_file, output_file)` - Processes entire CSV file
-
 ## Grading Criteria
 
 The solution addresses:
@@ -141,19 +124,3 @@ The solution addresses:
 - **Rewriting Quality (30%)**: Natural, readable content generation
 - **Keyword Handling & Length Limits (20%)**: Proper keyword integration and character limits
 - **Code/Documentation (10%)**: Clean, tested, documented code
-
-## License
-
-MIT License
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Add tests for new functionality
-4. Ensure all tests pass
-5. Submit a pull request
-
-## Support
-
-For issues or questions, please open an issue on the repository.
