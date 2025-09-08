@@ -124,3 +124,9 @@ The solution addresses:
 - **Rewriting Quality (30%)**: Natural, readable content generation
 - **Keyword Handling & Length Limits (20%)**: Proper keyword integration and character limits
 - **Code/Documentation (10%)**: Clean, tested, documented code
+
+## AI Tools Usage
+Here is a brief summary of the AI tools I used during this project:
+- Claude (Code): Improved code efficiency and reliability, with attention to edge cases.
+- ChatGPT: Researched and explored functionalities of libraries used (e.g., pandas, NumPy).
+- Testing: Wrote initial tests and then used Claude (Code) to broaden coverage, including corner cases and error conditions.
